@@ -25,7 +25,7 @@ python3 CLASH.py Viennad_to_Table -i `test_cutN_comp_20230616martquery_061314282
 ```ruby
 20230616martquery_0613142828_717_WBcel235_unique.fasta file size is 66.1MB. The dataset folder has a small size file, called 20230616martquery_0613142828_717_WBcel235_unique_small.fasta.
   
-20230616martquery_0613142828_717_WBcel235_unique_V_conservation_score.txt file size is 194MB. The dataset folder has a small size file, called 20230616martquery_0613142828_717_WBcel235_unique_V_conservation_score_small.txt.
+20230618_Exp325_Celegans_CS.txt file size is 900MB. The dataset folder has a small size file, called 20230616martquery_0613142828_717_WBcel235_unique_small.txt.
 ```
 
   
