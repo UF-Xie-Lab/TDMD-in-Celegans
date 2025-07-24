@@ -17,15 +17,15 @@ module load hyb
 
 module load unafold
 
-hyb analyse in=`test_cutN.fasta` db=`20220221_dm6_unique` type=mim pref=mim format=fasta
+hyb analyse in=`test_cutN.fasta` db=`20230616martquery_0613142828_717_WBcel235_unique` type=mim pref=mim format=fasta
 
 ### 1.6 Potential TDMD miRNA-target RNA hybrids identification
-python3 CLASH.py Viennad_to_Table -i `test_cutN_comp_20220221_dm6_unique_hybrids_ua` -c `dm6_all_conservation_score.txt` -t `20220221_dm6_unique.fasta` -n `martquery_1109155317_9_name.txt`
+python3 CLASH.py Viennad_to_Table -i `test_cutN_comp_20230616martquery_0613142828_717_WBcel235_unique_hybrids_ua` -c `20230618_Exp325_Celegans_CS.txt` -t `20230616martquery_0613142828_717_WBcel235_unique.fasta` -n `EXP325_20230618_C.elegans_name.txt`
 
 ```ruby
-20220221_dm6_unique.fasta file size is 95MB. The dataset folder has a small size file, called 20220221_dm6_unique_small.fasta.
+20230616martquery_0613142828_717_WBcel235_unique.fasta file size is 66.1MB. The dataset folder has a small size file, called 20230616martquery_0613142828_717_WBcel235_unique_small.fasta.
   
-dm6_all_conservation_score.txt file size is 1.4G. The dataset folder has a small size file, called dm6_all_conservation_score_small.txt.
+20230616martquery_0613142828_717_WBcel235_unique_V_conservation_score.txt file size is 194MB. The dataset folder has a small size file, called dm6_all_conservation_score_small.txt.
 ```
 
   
